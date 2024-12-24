@@ -1,4 +1,4 @@
-# 🚀 Portfólio V2 do Caio
+# Versão 2 do primeiro portfólio 
 
 Este é o meu portfólio pessoal, desenvolvido utilizando as tecnologias **HTML**, **CSS**, **JavaScript** e **Tailwind CSS**. O site é projetado para ser uma vitrine do meu trabalho, apresentando minhas habilidades e projetos de uma maneira simples, limpa e responsiva.
 
