@@ -13,7 +13,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "dev": "echo \"No dev command specified\"",
+    "start": "echo \"No start command specified\""
   },
   "repository": {
     "type": "git",
