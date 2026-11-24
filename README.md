@@ -1,17 +1,25 @@
-# Versão 2 do primeiro portfólio 
+# caiorenato
 
-Este é o meu portfólio pessoal, desenvolvido utilizando as tecnologias **HTML**, **CSS**, **JavaScript** e **Tailwind CSS**. O site é projetado para ser uma vitrine do meu trabalho, apresentando minhas habilidades e projetos de uma maneira simples, limpa e responsiva.
+Meu portfólio: [caiorenatodot.vercel.app](https://caiorenatodot.vercel.app)
 
-## 🛠️ Tecnologias Utilizadas
+React + Vite + TypeScript, CSS puro e fontes IBM Plex servidas localmente.
 
-- **HTML**: Estruturação da página.
-- **CSS**: Estilização do layout.
-- **JavaScript**: Interatividade, como o menu de navegação responsivo.
-- **Tailwind CSS**: Framework de utilitário para a criação de um design responsivo e personalizável.
-- **Vercel**: Plataforma para hospedagem do site.
+## Rodar
 
-## 💡 Funcionalidades
+```bash
+npm install
+npm run dev
+```
 
-- **🌐 Navegação Responsiva**: A navegação se adapta a diferentes tamanhos de tela, utilizando um menu hambúrguer para dispositivos móveis.
-- **✨ Animações e Transições**: O menu de navegação conta com transições suaves para melhorar a experiência do usuário.
-- **🎨 Design Clean**: Um design minimalista, com um esquema de cores simples e eficaz.
+## Adicionar um projeto
+
+Tudo fica em [`src/data/projects.ts`](src/data/projects.ts):
+
+- `featuredProjects`: os destaques com imagem. A imagem vai em `public/images/projects/` (16:9, ~1200px, `.webp`).
+- `otherProjects`: a lista abaixo dos destaques. Use `private: true` para repositórios privados.
+
+Stack e links de contato ficam em [`src/data/profile.ts`](src/data/profile.ts).
+
+## Deploy
+
+Vercel, configurado em [`vercel.json`](vercel.json). Os endereços antigos (`/aboutme.html`, `/contato.html`) redirecionam para as seções da página.
