@@ -9,7 +9,9 @@ export function Hero() {
       <div className="hero__id">
         <img src="/images/profile.jpeg" alt="" className="hero__avatar" width={64} height={64} />
         <div>
-          <h1 className="hero__name">{profile.name}</h1>
+          <h1 className="hero__name">
+            Caio <span className="hero__last">Renato</span>
+          </h1>
           <p className="meta">estudante de ciência da computação</p>
         </div>
       </div>
