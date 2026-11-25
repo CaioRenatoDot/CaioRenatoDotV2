@@ -373,6 +373,18 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
+.row--job {
+  grid-template-columns: 11rem 1fr auto;
+}
+
+.row--job .row__year {
+  white-space: nowrap;
+}
+
+.row--job:last-child {
+  border-bottom: 0;
+}
+
 .row__year {
   padding-top: 0.2rem;
 }

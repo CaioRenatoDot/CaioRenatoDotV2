@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { TypedBrand } from "./TypedBrand";
 
-const sections = ["projetos", "sobre", "contato"];
+const sections = ["projetos", "experiencia", "sobre", "contato"];
+
+const labels: Record<string, string> = { experiencia: "experiência" };
 
 /** Seção que está ocupando a faixa central da tela. */
 function useActiveSection() {
@@ -38,7 +40,7 @@ export function Header() {
             {sections.map((id) => (
               <li key={id}>
                 <a href={`#${id}`} className={active === id ? "is-active" : undefined} aria-current={active === id ? "true" : undefined}>
-                  {id}
+                  {labels[id] ?? id}
                 </a>
               </li>
             ))}
