@@ -11,7 +11,23 @@ export const profile = {
 
 export const stack: { group: string; items: string[] }[] = [
   { group: "Linguagens", items: ["TypeScript", "JavaScript", "Python", "Java", "C++", "GDScript"] },
-  { group: "Front-end", items: ["React", "Next.js", "Vite", "Tailwind CSS", "TanStack Query"] },
-  { group: "Back-end e dados", items: ["Node.js", "Express", "Fastify", "NestJS", "Prisma", "PostgreSQL"] },
+  { group: "Front-end", items: ["React", "Angular", "Next.js", "Vite", "Tailwind CSS", "TanStack Query"] },
+  { group: "Back-end e dados", items: ["Node.js", "Express", "Fastify", "NestJS", "Spring Boot", "Prisma", "PostgreSQL"] },
   { group: "Ferramentas", items: ["Git", "GitHub Actions", "Docker", "Vitest", "Electron", "Godot"] },
+];
+
+export const experience: { role: string; company: string; period: string; place: string; summary?: string }[] = [
+  {
+    role: "Residente Tecnológico em PD&I",
+    company: "Vertex | Instituto Privado de Tecnologia e Inovação",
+    period: "out. 2026 – atual",
+    place: "Maceió, AL · híbrido",
+    summary: "Desenvolvimento de sistemas com Angular e Spring Boot, com foco principal no front-end.",
+  },
+  {
+    role: "Estagiário · Desenvolvedor Full-Stack",
+    company: "INNOVADATA TIC",
+    period: "out. 2025 – jul. 2026",
+    place: "Maceió, AL · híbrido",
+  },
 ];
