@@ -31,3 +31,13 @@ export const experience: { role: string; company: string; period: string; place:
     place: "Maceió, AL · híbrido",
   },
 ];
+
+export const education: typeof experience = [
+  {
+    role: "Bacharelado em Ciência da Computação",
+    company: "UNIMA · Centro Universitário Maceió",
+    period: "2023 – 2027",
+    place: "Maceió, AL",
+    summary: "Conclusão prevista para o primeiro semestre de 2027.",
+  },
+];

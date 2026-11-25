@@ -12,7 +12,7 @@ export function Hero() {
           <h1 className="hero__name">
             Caio <span className="hero__last">Renato</span>
           </h1>
-          <p className="meta">estudante de ciência da computação</p>
+          <p className="meta">estudante de ciência da computação · UNIMA</p>
         </div>
       </div>
 
